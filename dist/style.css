@@ -1,0 +1,52 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body 
+{
+    margin: 0;
+    background-color: wheat;
+}
+
+h1
+{
+    text-align: center;
+    color: aliceblue;
+}
+
+h1:hover
+{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+#nav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+button
+{
+    padding: 20px;
+    background-color: red;
+}
+
+img
+{
+    max-width: 75%;
+    height: auto;
+    margin: 20px;
+}
+
+.description
+{
+    margin: 20px;
+}
+
+.description>div
+{
+    font-family:  "Lucida Console", Monaco, monospace
+}
